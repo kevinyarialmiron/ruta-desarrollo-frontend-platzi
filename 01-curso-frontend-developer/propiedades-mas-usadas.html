@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .card {
+            width: 500px;
+            height: 500px;
+            background-color: papayawhip;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .card img {
+            height: 80%;
+        }
+        .card p {
+            text-align: center;
+            margin: 0;
+        }
+        .card p:nth-child(3) {
+            color: blueviolet;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 200px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/32797808/pexels-photo-32797808.jpeg" alt="Gatito tierno">
+            <p>Nombre: Mimi</p>
+            <p>Edad: 2 años</p>
+            <div class="buttons">
+                <button>Adoptar</button>
+                <button>Donar</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
