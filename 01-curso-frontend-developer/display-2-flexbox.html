@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: rgb(103, 0, 151);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 350px;
+        }
+        .item {
+            width: 50px;
+            height: 50px;
+            background-color: coral;
+        }
+
+        .container .item:nth-child(2n + 1) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>
