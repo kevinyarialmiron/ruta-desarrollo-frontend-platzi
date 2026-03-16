@@ -9,8 +9,8 @@ Esta ruta es el paso siguiente después de Fundamentos de Desarrollo Web. Enfoca
 
 | Curso                                      | Estado       | Notas / Proyectos destacados                  |
 |--------------------------------------------|--------------|-----------------------------------------------|
-| Curso de Frontend Developer                | En progreso  | HTML semántico, CSS básico-avanzado, responsive |
-| Curso Práctico de Frontend Developer       | Pendiente    | Maquetación real, clon de sitios, mobile-first |
+| Curso de Frontend Developer                | Completado   | HTML semántico, CSS básico-avanzado, responsive |
+| Curso Práctico de Frontend Developer       | En proceso   | Maquetación real, clon de sitios, mobile-first |
 | Curso de CSS                               | Pendiente    | Selectores, layout, buenas prácticas         |
 | Curso de Responsive Design: Maquetación Mobile First | Pendiente | Mobile first, breakpoints, viewport           |
 | Curso Práctico de Maquetación en CSS       | Pendiente    | Proyectos de maquetación                      |
