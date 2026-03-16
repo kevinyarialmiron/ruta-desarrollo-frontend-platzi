@@ -5,7 +5,9 @@ Aquí voy agrupando ejercicios, proyectos, maquetaciones y notas de cada curso m
 
 Esta ruta es el paso siguiente después de Fundamentos de Desarrollo Web. Enfocada en HTML semántico, CSS avanzado (Flexbox, Grid, animaciones, responsive), buenas prácticas de maquetación y primeros conceptos de diseño web profesional.
 
-## Cursos planeados / en progreso (actualizado Marzo 2026)
+## Cursos planeados / en progreso (Ultima actualización: Marzo 2026)
+
+Inicio de la ruta: 6 de Marzo de 2026
 
 | Curso                                      | Estado       | Notas / Proyectos destacados                  |
 |--------------------------------------------|--------------|-----------------------------------------------|
@@ -30,6 +32,5 @@ Esta ruta es el paso siguiente después de Fundamentos de Desarrollo Web. Enfoca
 La ruta tiene varios cursos enfocados en maquetación y estilos (muchos cortos/medianos). Agruparlos evita tener 10+ repos "mini" al principio.  
 Si un proyecto crece mucho (ej: clon de Airbnb, portfolio personal, app con interacciones), lo moveré a repo propio para deploy fácil y README dedicado.
 
-Inicio de la ruta: 6 de Marzo de 2026
 Hecho con ❤️ por Kevin  
 ¡A darle duro! 🚀  
