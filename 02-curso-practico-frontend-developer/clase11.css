@@ -1,0 +1,99 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-liht-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body{
+    margin: 0;
+    font-family: "Quicksand", sans-serif
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--very-liht-pink);
+}
+ 
+.nav-bar-left, 
+.nav-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-left__list{
+    margin-left: 24px;
+}
+
+.nav-bar-left ul li a,
+.nav-bar-right ul li a {
+    text-decoration: none;
+    color: var(--very-liht-pink);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.nav-bar-left ul li a:hover,
+.nav-bar-right ul li a:hover {
+    border: 1px solid var(--hospital-green);
+}
+
+.menu {
+    display: none;
+
+}
+
+.logo {
+    width: 120px;
+}
+
+/* En el curos son ul */
+.nav-bar-left__list,
+.nav-bar-right__list {
+    list-style: none;
+    padding: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-email {
+    color: var(--very-liht-pink);
+    font-size: var(--sm);
+}
+
+.nav-bar-right{
+    position: relative;
+}
+
+/* Numero del carrito */
+.nav-bar-right__list div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: var(--hospital-green);
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+}
+
+@media (max-width: 640px) {
+    .menu {
+        display: block;
+    }
+    .navbar-email, .nav-bar-left__list {
+        display: none;
+    }
+}
