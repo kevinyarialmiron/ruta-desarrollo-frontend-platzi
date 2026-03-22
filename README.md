@@ -13,8 +13,8 @@ Inicio de la ruta: 6 de Marzo de 2026
 |--------------------------------------------|--------------|-----------------------------------------------|
 | Curso de Frontend Developer                | Completado   | HTML semántico, CSS básico-avanzado, responsive |
 | Curso Práctico de Frontend Developer       | Completado   | Maquetación real, clon de sitios, mobile-first |
-| Curso de CSS                               | En progreso  | Selectores, layout, buenas prácticas         |
-| Curso de Responsive Design: Maquetación Mobile First | Pendiente | Mobile first, breakpoints, viewport           |
+| Curso de CSS                               | Completado   | Selectores, layout, buenas prácticas         |
+| Curso de Responsive Design: Maquetación Mobile First | En progreso | Mobile first, breakpoints, viewport           |
 | Curso Práctico de Maquetación en CSS       | Pendiente    | Proyectos de maquetación                      |
 | Curso de Diseño Web con CSS Grid y Flexbox | Pendiente    | Grid, Flexbox, layouts modernos               |
 | Curso de CSS Grid Básico                   | Pendiente    | Fundamentos de Grid                           |
