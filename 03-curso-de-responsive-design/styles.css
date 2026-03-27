@@ -253,6 +253,7 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     text-align: center;
+    font-weight: normal;
 }
 
 /* COMISSION TABLE  */
@@ -347,6 +348,7 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     text-align: center;
+    font-weight: normal;
 }
 
 /* COLORES DE DIFERENTES INTERCAMBIOS */
