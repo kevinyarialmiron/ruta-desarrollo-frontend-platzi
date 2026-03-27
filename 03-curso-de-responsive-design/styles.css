@@ -9,6 +9,7 @@
 :root {
     /* Colores */
     --bitcoin-orange: #F7931A;
+    --bullish-green: #1af725;
     --warm-black: #201E1C;
     --soft-orange: #FFE9D4;
     --secondary-blue: #1A9AF7;
@@ -153,6 +154,16 @@ main {
     color: #757575;
 }
 
+.main-table-container {
+    display: flex;
+    flex-direction: column;
+    gap: 52px; /* Puedes ajustar el espacio entre tablas aquí, por ejemplo 32px */
+}
+
+
+
+/* CURRENCY TABLE */
+
 .main-currency-table {
     display: flex;
     flex-direction: column;
@@ -242,4 +253,113 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     text-align: center;
+}
+
+/* COMISSION TABLE  */
+
+
+.main-commission-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 235px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.commission-table--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 230px;
+    width: 90%;
+}
+ .commission-table--container {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;   
+    height: 250px;
+    margin: 0 auto;
+} 
+.commission-table--container table {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.commission-table--container td {
+    width: 50%;
+    padding: 1px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.commission-table--container .table__top-left {
+    border-radius: 15px 0 0 0;
+}
+.commission-table--container .table__top-right {
+    border-radius: 0 15px 0 0;
+}
+.commission-table--container .table__bottom-left {
+    border-radius: 0 0 0 15px;
+}
+.commission-table--container .table__bottom-right {
+    border-radius: 0 0 15px 0;
+}
+
+.commission-table--container .table__right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575
+}
+
+.main-commission-table .commission-table--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+
+.commission-table-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.commission-table-date p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    text-align: center;
+}
+
+/* COLORES DE DIFERENTES INTERCAMBIOS */
+
+#binance {
+    color: var(--bitcoin-orange);
+}
+#bitget {
+    color:var(--secondary-blue)
+}
+#mexc {
+    color:var(--secondary-blue)
+}
+#bitfinex {
+    color: var(--bullish-green);
 }
