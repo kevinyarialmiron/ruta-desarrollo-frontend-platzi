@@ -365,3 +365,47 @@ main {
 #bitfinex {
     color: var(--bullish-green);
 }
+
+/*Estilos de las product cards*/
+
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo{
+    position: absolute;
+    background-image: url("./assets/img/logo.svg");
+    width: 40px;
+    height: 25px;
+    top: -15px;
+    left: calc(50% - 20px);
+}
+
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #808080;
+}
