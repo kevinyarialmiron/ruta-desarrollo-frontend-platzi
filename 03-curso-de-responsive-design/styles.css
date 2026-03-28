@@ -468,3 +468,22 @@ main {
     color: #808080;
 
 }
+
+/*Seccion de imagen*/
+.bitcoin-image-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bitcoin-image-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
