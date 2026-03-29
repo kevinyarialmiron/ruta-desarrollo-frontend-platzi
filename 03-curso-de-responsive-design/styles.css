@@ -522,3 +522,11 @@ main {
     color: #757575;
 }
 
+/* Seccion slider */
+.plans-container--slider{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
